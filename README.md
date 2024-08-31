@@ -2,6 +2,7 @@
 > *This repository contains my personal scripts that I use for my daily tasks. The scripts are written in various languages such as Python, JavaScript, VBScript, etc. The scripts are used for automating tasks, modifying web pages, and other purposes.*
 
 ## Description
+### Tampermonkey Userscripts
 * `ncbi_pmc_newUI_redirect.js` - redirect to new PubMed Central (PMC) experimental page.
 * `ListWrongAnswers.bas` - custom function to list wrong answers in Excel. Explanation:
   * ListWrongAnswer(`start_calc_cell`, `start_ref_cell`, `wrong_questions`, `number_of_questions`, "")
@@ -9,6 +10,7 @@
   * `start_ref_cell` - The starting position of the reference range.
   * `wrong_questions` - Wrong answer questions.
   * `number_of_questions` - The number of questions.
+### VBScript for Excel
 * `ScoringUnweighted.bas` - custom function to calculate unweighted scoring in Excel (all questions have the same score). Explanation:
   * MatchScoreUnweighted(`start_calc_cell`, `start_ref_cell`, `number_of_questions`) (total value = 1)
   * `start_calc_cell` - The starting position of the calculation range.
